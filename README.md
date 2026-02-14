@@ -35,9 +35,16 @@ using a machine learning model trained on multiple performance factors.
 - Data Analysis: Pandas, Plotly
 
 ---
+## How to Clone the Repository
+```python
+git clone 
+```
+
 
 ## How to Run Locally
-
+### Note :
+- python 3.11 version is required to install the requirements.txt
+- To see the Data in the DataBase you have to install DB Browser(SQLite) from any browser.
 ### 1. Install dependencies
 ```python
 pip install -r requirements.txt
