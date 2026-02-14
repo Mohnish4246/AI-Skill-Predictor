@@ -37,14 +37,26 @@ using a machine learning model trained on multiple performance factors.
 ---
 ## How to Clone the Repository
 ```python
-git clone 
+git clone https://github.com/Mohnish4246/AI-Skill-Predictor.git
 ```
-
 
 ## How to Run Locally
 ### Note :
 - python 3.11 version is required to install the requirements.txt
 - To see the Data in the DataBase you have to install DB Browser(SQLite) from any browser.
+### Create Virtual Environment
+```python
+python3.11 -m venv .venv
+```
+### Activate Virtual Environment
+#### on Windows
+```python
+.venv\Scripts\activate
+```
+#### on macOS / Linux
+```python
+source .venv/bin/activate
+```
 ### 1. Install dependencies
 ```python
 pip install -r requirements.txt
@@ -57,7 +69,12 @@ python -m uvicorn main:app --reload
 ```python
 streamlit run app.py
 ```
+## Deactivate Virtual Environment
+```python
+deactivate
+```
+### OR
+- Control + C
 ### Project Goal
 To demonstrate how machine learning, data analytics, and full-stack development
 can be combined to build a secure and scalable skill evaluation system.
-
