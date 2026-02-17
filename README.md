@@ -63,6 +63,7 @@ pip install -r requirements.txt
 ```
 #### Note 
 - You also have to create a .env file for ADMIN_USERNAME and ADMIN_PASSWORD
+- Then add your username and password in it so that it can access that while you login as admin
 ### 2. Start backend
 ```python
 python -m uvicorn main:app --reload
