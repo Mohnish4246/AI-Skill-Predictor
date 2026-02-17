@@ -61,6 +61,8 @@ source .venv/bin/activate
 ```python
 pip install -r requirements.txt
 ```
+#### Note 
+- You also have to create a .env file for ADMIN_USERNAME and ADMIN_PASSWORD
 ### 2. Start backend
 ```python
 python -m uvicorn main:app --reload
