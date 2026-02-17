@@ -73,8 +73,6 @@ streamlit run app.py
 ```python
 deactivate
 ```
-### OR
-- Control + C
 ### Project Goal
 To demonstrate how machine learning, data analytics, and full-stack development
 can be combined to build a secure and scalable skill evaluation system.
