@@ -79,6 +79,6 @@ deactivate
 ### Project Goal
 To demonstrate how machine learning, data analytics, and full-stack development
 can be combined to build a secure and scalable skill evaluation system.
-### Deployment 
+## Deployment 
 - The project backend is deployed on **Render**
 - You can checkout the Backend at : https://ai-skill-predictor.onrender.com
